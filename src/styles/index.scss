@@ -1,0 +1,29 @@
+@import "./normalize.scss";
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__container {
+  width: 50vh;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.app__block {
+  width: 100%;
+  height: 30vh;
+}

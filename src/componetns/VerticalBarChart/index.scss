@@ -1,0 +1,19 @@
+.vertical-bar-chart {
+  width: 100%;
+  height: 100%;
+}
+
+.vertical-bar-chart__list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.vertical-bar-chart__item {
+  background-color: skyblue;
+  list-style: none;
+}
